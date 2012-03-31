@@ -1,0 +1,123 @@
+@import "bourbon/bourbon";
+
+/* ==|== twitter button styles =====================================================
+   Vision Five Design Studio - http://www.v5design.com
+   Front-end Dev: Anton Korzhuk - @osurain
+   UX/ UI Designer: Eddie Lobanovskiy - @v5design
+   ========================================================================== */
+
+.btn-indent {
+  height: 60px;
+  width: 141px;
+  position: relative; 
+  z-index: 1;
+
+  @include linear-gradient(top, #858585 0%, #a5a5a5 17%, #ffffff 100%);
+  border-top: 1px solid #717171;
+  @include border-radius(10px);
+
+  cursor: pointer;
+}
+
+.btn-mask {
+  height: 42px;
+  width: 124px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  overflow: hidden;
+}
+
+.btn {
+  height: 42px;
+  width: 115px;
+  position: absolute;
+  left: 3px;
+
+  @include linear-gradient(top, #1e1e1e 0%, #3e3e3e 100%);
+  @include border-radius(5px);
+
+  text-align: center;
+}
+
+.btn:before {
+  content: "";
+  display: block;
+  height: 41px;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  left: -3px;
+  z-index: -999;
+  
+  @include linear-gradient(bottom, #ffffff 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  border-top: 1px solid #1f1f1f;
+  border-bottom: 1px solid #ffffff;
+  @include border-left-radius(5px); 
+}
+
+.btn:after {
+  content: "";
+  display: block;
+  height: 41px;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  right: -3px;
+  z-index: -999;
+  
+  @include linear-gradient(bottom, #ffffff 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  border-top: 1px solid #1f1f1f;
+  border-bottom: 1px solid #ffffff;
+  @include border-right-radius(5px); 
+}
+
+.btn-cover {
+  height: 41px;
+  width: 121px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include linear-gradient(bottom, #003650 0%, #0b648d 5%, #3dc6e3 100%);
+  border-top: 1px solid #a5efff;
+  @include border-radius(5px);
+  @include box-shadow(inset 0 0 0 0 rgba(0, 0, 0, 0));
+
+}
+
+/* gotta fix this eventually
+.btn-cover:after {
+  content: "";
+  display: block;
+  height: 41px;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  right: -3px;
+  z-index: -998;
+  
+  @include linear-gradient(bottom, #53a7c3 0%, #1b5772 100%);
+  @include border-right-radius(5px); 
+}
+*/
+
+.btn-widget {
+  height: 20px;
+  position: relative;
+  top: 11px;
+  left: 6px;
+
+  //background: url(../img/tracer-tweet.jpg) no-repeat center top;
+}
+
+.i-twitter {
+  display: block;
+  height: 41px;
+  width: 121px;
+  position: absolute;
+  top: 0;
+
+  background: url(../img/i-twitter.png) no-repeat center top;
+}
+

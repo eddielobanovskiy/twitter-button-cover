@@ -1,0 +1,173 @@
+/* ==|== twitter button styles =====================================================
+   Vision Five Design Studio - http://www.v5design.com
+   Front-end Dev: Anton Korzhuk - @osurain
+   UX/ UI Designer: Eddie Lobanovskiy - @v5design
+   ========================================================================== */
+.btn-indent {
+  height: 60px;
+  width: 141px;
+  position: relative;
+  z-index: 1;
+  background-color: #858585;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #858585), color-stop(17%, #a5a5a5), color-stop(100%, white));
+  background-image: -webkit-linear-gradient(top, #858585 0%, #a5a5a5 17%, white 100%);
+  background-image: -moz-linear-gradient(top, #858585 0%, #a5a5a5 17%, white 100%);
+  background-image: -ms-linear-gradient(top, #858585 0%, #a5a5a5 17%, white 100%);
+  background-image: -o-linear-gradient(top, #858585 0%, #a5a5a5 17%, white 100%);
+  background-image: linear-gradient(top, #858585 0%, #a5a5a5 17%, white 100%);
+  border-top: 1px solid #717171;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-mask {
+  height: 42px;
+  width: 124px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  overflow: hidden;
+}
+
+.btn {
+  height: 42px;
+  width: 115px;
+  position: absolute;
+  left: 3px;
+  background-color: #1e1e1e;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e1e1e), color-stop(100%, #3e3e3e));
+  background-image: -webkit-linear-gradient(top, #1e1e1e 0%, #3e3e3e 100%);
+  background-image: -moz-linear-gradient(top, #1e1e1e 0%, #3e3e3e 100%);
+  background-image: -ms-linear-gradient(top, #1e1e1e 0%, #3e3e3e 100%);
+  background-image: -o-linear-gradient(top, #1e1e1e 0%, #3e3e3e 100%);
+  background-image: linear-gradient(top, #1e1e1e 0%, #3e3e3e 100%);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:before {
+  content: "";
+  display: block;
+  height: 41px;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  left: -3px;
+  z-index: -999;
+  background-color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(8%, #898989), color-stop(20%, #a4a4a4), color-stop(45%, #a4a4a4), color-stop(100%, #3e3e3e));
+  background-image: -webkit-linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  background-image: -moz-linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  background-image: -ms-linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  background-image: -o-linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  background-image: linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  border-top: 1px solid #1f1f1f;
+  border-bottom: 1px solid #ffffff;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -ms-border-top-left-radius: 5px;
+  -o-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -ms-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn:after {
+  content: "";
+  display: block;
+  height: 41px;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  right: -3px;
+  z-index: -999;
+  background-color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(8%, #898989), color-stop(20%, #a4a4a4), color-stop(45%, #a4a4a4), color-stop(100%, #3e3e3e));
+  background-image: -webkit-linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  background-image: -moz-linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  background-image: -ms-linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  background-image: -o-linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  background-image: linear-gradient(bottom, white 0%, #898989 8%, #a4a4a4 20%, #a4a4a4 45%, #3e3e3e 100%);
+  border-top: 1px solid #1f1f1f;
+  border-bottom: 1px solid #ffffff;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -ms-border-top-right-radius: 5px;
+  -o-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -ms-border-bottom-right-radius: 5px;
+  -o-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn-cover {
+  height: 41px;
+  width: 121px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #003650;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #003650), color-stop(5%, #0b648d), color-stop(100%, #3dc6e3));
+  background-image: -webkit-linear-gradient(bottom, #003650 0%, #0b648d 5%, #3dc6e3 100%);
+  background-image: -moz-linear-gradient(bottom, #003650 0%, #0b648d 5%, #3dc6e3 100%);
+  background-image: -ms-linear-gradient(bottom, #003650 0%, #0b648d 5%, #3dc6e3 100%);
+  background-image: -o-linear-gradient(bottom, #003650 0%, #0b648d 5%, #3dc6e3 100%);
+  background-image: linear-gradient(bottom, #003650 0%, #0b648d 5%, #3dc6e3 100%);
+  border-top: 1px solid #a5efff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+/* gotta fix this eventually
+.btn-cover:after {
+  content: "";
+  display: block;
+  height: 41px;
+  width: 10px;
+  position: absolute;
+  top: 0;
+  right: -3px;
+  z-index: -998;
+  
+  @include linear-gradient(bottom, #53a7c3 0%, #1b5772 100%);
+  @include border-right-radius(5px); 
+}
+*/
+.btn-widget {
+  height: 20px;
+  position: relative;
+  top: 11px;
+  left: 6px;
+}
+
+.i-twitter {
+  display: block;
+  height: 41px;
+  width: 121px;
+  position: absolute;
+  top: 0;
+  background: url(../img/i-twitter.png) no-repeat center top;
+}

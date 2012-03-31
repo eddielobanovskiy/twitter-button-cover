@@ -1,0 +1,72 @@
+// See modules/_base.scss
+@import "modules/base";
+
+// HTML5 Boilerplate Top Section
+@import "partials/h5bp_top";
+
+/* Compass Sprites */
+/*------------------------------------------------------------------------------*/
+//$main-sprite-dimensions: true;
+//$main-spacing: 20px;
+//@import "main/*.png";
+//usage: .class-name {@include main-sprite(btn-started);}
+
+// compass mixin examples
+// @include linear-gradient(top, #603d6d 0%, #472b52 100%);
+// @include border-radius(5px);
+// @include box-shadow(inset 0 1px 0 0 #74567f);
+// @include transform(skewX(-15deg));
+
+
+/* ==|== primary styles =====================================================
+   Vision Five Design Studio - http://www.v5design.com
+   Front-end Dev: Anton Korzhuk - @osurain
+   UX/ UI Designer: Eddie Lobanovskiy - @v5design
+   ========================================================================== */
+
+body {
+  height: 300px;
+  
+  
+  background-color: #d9d9d9;
+
+}
+
+header {
+  height: 120px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#main {
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 120px; 
+
+  @include linear-gradient(top, #ffffff 0%, #d9d9d9 100%);
+}
+
+.btn-indent {
+  margin: 0 auto;
+}
+
+.tracer {
+  height: 60px;
+  width: 138px;
+  margin: 10px auto;
+  top: 190px;
+  left: 545px;
+
+  background: url(../img/tracer.png) no-repeat center top;
+}
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@import "partials/plugins";
+
+
+// HTML5 Boilerplate Bottom Section
+@import "partials/h5bp_bottom";

@@ -1,0 +1,4 @@
+.DS_Store
+assets/exclude/v5design.sublime-project
+assets/exclude/v5design.sublime-workspace
+.sass-cache/

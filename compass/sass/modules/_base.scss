@@ -1,0 +1,29 @@
+// Core imports
+@import "compass";
+@import "compass/utilities/sprites/base";
+@import "compass/css3/transform";
+@import "bourbon/bourbon";
+
+// Default project config options 
+// Not targeting Opera or KHTML
+$experimental-support-for-opera: false;
+$experimental-support-for-khtml: false;
+
+// OR IE 6
+$legacy-support-for-ie6: false;
+
+// OR IE 7
+// $legacy-support-for-ie7: false;
+
+// Defaults
+//sans-serif;
+$font-stack: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$background-color: #fff !default;
+$text-color: white;
+$link-color: white;
+$link-color-hover: LightBlue;
+$selection-color: DeepPink;
+
+
+// Default project mixins
+@import "mixins";
